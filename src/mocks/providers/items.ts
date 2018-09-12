@@ -7,7 +7,7 @@ export class Items {
   items: Item[] = [];
 
   defaultItem: any = {
-    "name": "Burt Bear",
+    "name": "Burt",
     "profilePic": "assets/img/speakers/bear.jpg",
     "about": "Burt is a Bear.",
   };
@@ -16,40 +16,70 @@ export class Items {
   constructor() {
     let items = [
       {
-        "name": "Burt Bear",
+        "name": "Burt",
         "profilePic": "assets/img/speakers/bear.jpg",
         "about": "Burt is a Bear."
       },
       {
-        "name": "Charlie Cheetah",
+        "name": "Charlie",
         "profilePic": "assets/img/speakers/cheetah.jpg",
         "about": "Charlie is a Cheetah."
       },
       {
-        "name": "Donald Duck",
+        "name": "Donald",
         "profilePic": "assets/img/speakers/duck.jpg",
         "about": "Donald is a Duck."
       },
       {
-        "name": "Eva Eagle",
+        "name": "Eva",
         "profilePic": "assets/img/speakers/eagle.jpg",
         "about": "Eva is an Eagle."
       },
       {
-        "name": "Ellie Elephant",
+        "name": "Ellie",
         "profilePic": "assets/img/speakers/elephant.jpg",
         "about": "Ellie is an Elephant."
       },
       {
-        "name": "Molly Mouse",
+        "name": "Glen",
+        "profilePic": "assets/img/speakers/giraffe.jpg",
+        "about": "Glen is an Giraffe."
+      },
+      {
+        "name": "Issac",
+        "profilePic": "assets/img/speakers/iguana.jpg",
+        "about": "Issac is an Iguana."
+      },
+      {
+        "name": "Katty",
+        "profilePic": "assets/img/speakers/kitten.jpg",
+        "about": "Katty is an Kitten."
+      },
+      {
+        "name": "Lisa",
+        "profilePic": "assets/img/speakers/lion.jpg",
+        "about": "Lisa is an Lion."
+      },
+      {
+        "name": "Molly",
         "profilePic": "assets/img/speakers/mouse.jpg",
         "about": "Molly is a Mouse."
       },
       {
-        "name": "Paul Puppy",
+        "name": "Paul",
         "profilePic": "assets/img/speakers/puppy.jpg",
         "about": "Paul is a Puppy."
-      }
+      },
+      {
+        "name": "Henry",
+        "profilePic": "assets/img/speakers/rabbit.jpg",
+        "about": "Henry is an Rabbit."
+      },
+      {
+        "name": "Terry",
+        "profilePic": "assets/img/speakers/turtle.jpg",
+        "about": "Terry is an Turtle."
+      },
     ];
 
     for (let item of items) {
